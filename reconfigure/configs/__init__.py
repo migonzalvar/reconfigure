@@ -20,7 +20,7 @@ from resolv import ResolvConfig
 from samba import SambaConfig
 from squid import SquidConfig
 from supervisor import SupervisorConfig
-
+from wondershaper import WonderShaperConfig
 
 __all__ = [
     'Reconfig',
@@ -43,4 +43,5 @@ __all__ = [
     'SambaConfig',
     'SquidConfig',
     'SupervisorConfig',
+    'WonderShaperConfig',
 ]
